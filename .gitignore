@@ -1,0 +1,17 @@
+# API keys
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local runs (keep the released data/ and figures/ in git)
+my_results*.csv
+my_figures/
+smoke*.csv

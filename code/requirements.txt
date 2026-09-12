@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+tiktoken>=0.5
+
+# Only needed for run_benchmark.py, and only for the providers you actually call:
+openai>=1.30        # OpenAI models, and OpenRouter (OpenAI-compatible endpoint)
+anthropic>=0.40     # Claude models
